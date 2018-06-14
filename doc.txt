@@ -1,0 +1,33 @@
+Go is a fast,object oriented language
+It is built on top of c
+Features like concurrency, polymorphism, garbage collection and all are supported
+no intermediary code like java or .net
+thats why the speed also pointers exist
+
+No concept of classes instead structs and funcs are used to conceptualize a class 
+func() with (ref/var structType ) 
+
+polymorphism is achieved by using structs and interfaces together
+
+a func with argument as intf type is used to demonstrate polymorphic nature
+
+REFER subStructs.go --recommended to understand structs and interfaces
+
+check CompoInheri.go to see how inheritance is achieved in golang there is no extending of classes 
+instead inheritance can be achieved using composition only.
+
+if-else and switch has a particular syntax to be followed
+check it out
+
+
+go-routines are separate path of execution just like a thread
+channels acts as a pipe enabling communication between two different threads
+
+
+Go code must be kept inside a workspace. A workspace is a directory hierarchy with three directories at its root:
+
+src contains Go source files organized into packages (one package per directory),
+
+pkg contains package objects, and
+
+bin contains executable commands.
